@@ -1,0 +1,67 @@
+body{
+    font-family: 'Anek Odia', sans-serif;
+    
+}
+.container{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row{
+    height: 100px;
+}
+
+.border-b{
+    border-bottom: 10px solid black;
+}
+
+.col{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.border-r{
+    border-right: 10px solid black;
+ 
+}
+
+.col:hover{
+    background-color: blueviolet !important;
+}
+
+.centered{ 
+    text-align: center;
+}
+
+#icon{
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: rgb(143, 3, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#info {
+    font-size: 30px;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.circleSymbol{
+    color: rgb(48, 201, 1);
+}
